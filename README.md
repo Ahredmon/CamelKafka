@@ -12,7 +12,8 @@
 
 ##  License:
 
-   Copyright 2013 Ioannis Polyzos
+   Implmentation : Alex Redmon
+   CamelKafka interface: Copyright 2013 Ioannis Polyzos
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
