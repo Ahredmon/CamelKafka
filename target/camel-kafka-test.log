@@ -1,0 +1,140 @@
+2016-09-28 15:29:43,938 [main           ] INFO  VerifiableProperties           - Verifying properties
+2016-09-28 15:29:43,961 [main           ] WARN  VerifiableProperties           - Property auto.commit.enable is not valid
+2016-09-28 15:29:43,961 [main           ] WARN  VerifiableProperties           - Property auto.commit.interval.ms is not valid
+2016-09-28 15:29:43,961 [main           ] WARN  VerifiableProperties           - Property auto.offset.reset is not valid
+2016-09-28 15:29:43,961 [main           ] INFO  VerifiableProperties           - Property batch.num.messages is overridden to 200
+2016-09-28 15:29:43,962 [main           ] INFO  VerifiableProperties           - Property client.id is overridden to kafka.DEFAULT_CLIENT_ID
+2016-09-28 15:29:43,962 [main           ] INFO  VerifiableProperties           - Property compression.codec is overridden to none
+2016-09-28 15:29:43,962 [main           ] WARN  VerifiableProperties           - Property consumer.timeout.ms is not valid
+2016-09-28 15:29:43,962 [main           ] WARN  VerifiableProperties           - Property fetch.message.max.bytes is not valid
+2016-09-28 15:29:43,962 [main           ] WARN  VerifiableProperties           - Property fetch.min.bytes is not valid
+2016-09-28 15:29:43,962 [main           ] WARN  VerifiableProperties           - Property fetch.wait.max.ms is not valid
+2016-09-28 15:29:43,962 [main           ] WARN  VerifiableProperties           - Property group.id is not valid
+2016-09-28 15:29:43,962 [main           ] INFO  VerifiableProperties           - Property key.serializer.class is overridden to kafka.serializer.StringEncoder
+2016-09-28 15:29:43,962 [main           ] INFO  VerifiableProperties           - Property message.send.max.retries is overridden to 3
+2016-09-28 15:29:43,962 [main           ] INFO  VerifiableProperties           - Property metadata.broker.list is overridden to sampleBroker:11
+2016-09-28 15:29:43,962 [main           ] INFO  VerifiableProperties           - Property partitioner.class is overridden to kafka.producer.DefaultPartitioner
+2016-09-28 15:29:43,963 [main           ] INFO  VerifiableProperties           - Property producer.type is overridden to sync
+2016-09-28 15:29:43,963 [main           ] INFO  VerifiableProperties           - Property queue.buffering.max.messages is overridden to 10000
+2016-09-28 15:29:43,963 [main           ] INFO  VerifiableProperties           - Property queue.buffering.max.ms is overridden to 5000
+2016-09-28 15:29:43,963 [main           ] INFO  VerifiableProperties           - Property queue.enqueue.timeout.ms is overridden to -1
+2016-09-28 15:29:43,963 [main           ] WARN  VerifiableProperties           - Property queued.max.message.chunks is not valid
+2016-09-28 15:29:43,963 [main           ] WARN  VerifiableProperties           - Property rebalance.backoff.ms is not valid
+2016-09-28 15:29:43,963 [main           ] WARN  VerifiableProperties           - Property rebalance.max.retries is not valid
+2016-09-28 15:29:43,963 [main           ] WARN  VerifiableProperties           - Property refresh.leader.backoff.ms is not valid
+2016-09-28 15:29:43,963 [main           ] INFO  VerifiableProperties           - Property request.required.acks is overridden to 0
+2016-09-28 15:29:43,963 [main           ] INFO  VerifiableProperties           - Property request.timeout.ms is overridden to 10000
+2016-09-28 15:29:43,963 [main           ] INFO  VerifiableProperties           - Property retry.backoff.ms is overridden to 100
+2016-09-28 15:29:43,964 [main           ] INFO  VerifiableProperties           - Property send.buffer.bytes is overridden to 102400
+2016-09-28 15:29:43,964 [main           ] INFO  VerifiableProperties           - Property serializer.class is overridden to kafka.serializer.DefaultEncoder
+2016-09-28 15:29:43,964 [main           ] WARN  VerifiableProperties           - Property socket.receive.buffer.bytes is not valid
+2016-09-28 15:29:43,964 [main           ] WARN  VerifiableProperties           - Property socket.timeout.ms is not valid
+2016-09-28 15:29:43,964 [main           ] INFO  VerifiableProperties           - Property topic.metadata.refresh.interval.ms is overridden to 600000
+2016-09-28 15:29:43,964 [main           ] WARN  VerifiableProperties           - Property zookeeper.connection.timeout.ms is not valid
+2016-09-28 15:29:43,964 [main           ] WARN  VerifiableProperties           - Property zookeeper.session.timeout.ms is not valid
+2016-09-28 15:29:43,964 [main           ] WARN  VerifiableProperties           - Property zookeeper.sync.time.ms is not valid
+2016-09-28 15:33:07,594 [main           ] INFO  VerifiableProperties           - Verifying properties
+2016-09-28 15:33:07,642 [main           ] WARN  VerifiableProperties           - Property auto.commit.enable is not valid
+2016-09-28 15:33:07,642 [main           ] WARN  VerifiableProperties           - Property auto.commit.interval.ms is not valid
+2016-09-28 15:33:07,642 [main           ] WARN  VerifiableProperties           - Property auto.offset.reset is not valid
+2016-09-28 15:33:07,643 [main           ] INFO  VerifiableProperties           - Property batch.num.messages is overridden to 200
+2016-09-28 15:33:07,644 [main           ] INFO  VerifiableProperties           - Property client.id is overridden to kafka.DEFAULT_CLIENT_ID
+2016-09-28 15:33:07,644 [main           ] INFO  VerifiableProperties           - Property compression.codec is overridden to none
+2016-09-28 15:33:07,644 [main           ] WARN  VerifiableProperties           - Property consumer.timeout.ms is not valid
+2016-09-28 15:33:07,644 [main           ] WARN  VerifiableProperties           - Property fetch.message.max.bytes is not valid
+2016-09-28 15:33:07,645 [main           ] WARN  VerifiableProperties           - Property fetch.min.bytes is not valid
+2016-09-28 15:33:07,645 [main           ] WARN  VerifiableProperties           - Property fetch.wait.max.ms is not valid
+2016-09-28 15:33:07,645 [main           ] WARN  VerifiableProperties           - Property group.id is not valid
+2016-09-28 15:33:07,645 [main           ] INFO  VerifiableProperties           - Property key.serializer.class is overridden to kafka.serializer.StringEncoder
+2016-09-28 15:33:07,645 [main           ] INFO  VerifiableProperties           - Property message.send.max.retries is overridden to 3
+2016-09-28 15:33:07,646 [main           ] INFO  VerifiableProperties           - Property metadata.broker.list is overridden to sampleBroker:11
+2016-09-28 15:33:07,646 [main           ] INFO  VerifiableProperties           - Property partitioner.class is overridden to kafka.producer.DefaultPartitioner
+2016-09-28 15:33:07,646 [main           ] INFO  VerifiableProperties           - Property producer.type is overridden to sync
+2016-09-28 15:33:07,646 [main           ] INFO  VerifiableProperties           - Property queue.buffering.max.messages is overridden to 10000
+2016-09-28 15:33:07,646 [main           ] INFO  VerifiableProperties           - Property queue.buffering.max.ms is overridden to 5000
+2016-09-28 15:33:07,646 [main           ] INFO  VerifiableProperties           - Property queue.enqueue.timeout.ms is overridden to -1
+2016-09-28 15:33:07,646 [main           ] WARN  VerifiableProperties           - Property queued.max.message.chunks is not valid
+2016-09-28 15:33:07,646 [main           ] WARN  VerifiableProperties           - Property rebalance.backoff.ms is not valid
+2016-09-28 15:33:07,647 [main           ] WARN  VerifiableProperties           - Property rebalance.max.retries is not valid
+2016-09-28 15:33:07,647 [main           ] WARN  VerifiableProperties           - Property refresh.leader.backoff.ms is not valid
+2016-09-28 15:33:07,647 [main           ] INFO  VerifiableProperties           - Property request.required.acks is overridden to 0
+2016-09-28 15:33:07,647 [main           ] INFO  VerifiableProperties           - Property request.timeout.ms is overridden to 10000
+2016-09-28 15:33:07,647 [main           ] INFO  VerifiableProperties           - Property retry.backoff.ms is overridden to 100
+2016-09-28 15:33:07,647 [main           ] INFO  VerifiableProperties           - Property send.buffer.bytes is overridden to 102400
+2016-09-28 15:33:07,647 [main           ] INFO  VerifiableProperties           - Property serializer.class is overridden to kafka.serializer.DefaultEncoder
+2016-09-28 15:33:07,647 [main           ] WARN  VerifiableProperties           - Property socket.receive.buffer.bytes is not valid
+2016-09-28 15:33:07,647 [main           ] WARN  VerifiableProperties           - Property socket.timeout.ms is not valid
+2016-09-28 15:33:07,647 [main           ] INFO  VerifiableProperties           - Property topic.metadata.refresh.interval.ms is overridden to 600000
+2016-09-28 15:33:07,647 [main           ] WARN  VerifiableProperties           - Property zookeeper.connection.timeout.ms is not valid
+2016-09-28 15:33:07,647 [main           ] WARN  VerifiableProperties           - Property zookeeper.session.timeout.ms is not valid
+2016-09-28 15:33:07,648 [main           ] WARN  VerifiableProperties           - Property zookeeper.sync.time.ms is not valid
+2016-09-28 15:33:35,410 [main           ] INFO  VerifiableProperties           - Verifying properties
+2016-09-28 15:33:35,451 [main           ] WARN  VerifiableProperties           - Property auto.commit.enable is not valid
+2016-09-28 15:33:35,452 [main           ] WARN  VerifiableProperties           - Property auto.commit.interval.ms is not valid
+2016-09-28 15:33:35,452 [main           ] WARN  VerifiableProperties           - Property auto.offset.reset is not valid
+2016-09-28 15:33:35,452 [main           ] INFO  VerifiableProperties           - Property batch.num.messages is overridden to 200
+2016-09-28 15:33:35,453 [main           ] INFO  VerifiableProperties           - Property client.id is overridden to kafka.DEFAULT_CLIENT_ID
+2016-09-28 15:33:35,453 [main           ] INFO  VerifiableProperties           - Property compression.codec is overridden to none
+2016-09-28 15:33:35,453 [main           ] WARN  VerifiableProperties           - Property consumer.timeout.ms is not valid
+2016-09-28 15:33:35,453 [main           ] WARN  VerifiableProperties           - Property fetch.message.max.bytes is not valid
+2016-09-28 15:33:35,453 [main           ] WARN  VerifiableProperties           - Property fetch.min.bytes is not valid
+2016-09-28 15:33:35,453 [main           ] WARN  VerifiableProperties           - Property fetch.wait.max.ms is not valid
+2016-09-28 15:33:35,453 [main           ] WARN  VerifiableProperties           - Property group.id is not valid
+2016-09-28 15:33:35,453 [main           ] INFO  VerifiableProperties           - Property key.serializer.class is overridden to kafka.serializer.StringEncoder
+2016-09-28 15:33:35,453 [main           ] INFO  VerifiableProperties           - Property message.send.max.retries is overridden to 3
+2016-09-28 15:33:35,454 [main           ] INFO  VerifiableProperties           - Property metadata.broker.list is overridden to sampleBroker:11
+2016-09-28 15:33:35,454 [main           ] INFO  VerifiableProperties           - Property partitioner.class is overridden to kafka.producer.DefaultPartitioner
+2016-09-28 15:33:35,454 [main           ] INFO  VerifiableProperties           - Property producer.type is overridden to sync
+2016-09-28 15:33:35,454 [main           ] INFO  VerifiableProperties           - Property queue.buffering.max.messages is overridden to 10000
+2016-09-28 15:33:35,454 [main           ] INFO  VerifiableProperties           - Property queue.buffering.max.ms is overridden to 5000
+2016-09-28 15:33:35,454 [main           ] INFO  VerifiableProperties           - Property queue.enqueue.timeout.ms is overridden to -1
+2016-09-28 15:33:35,454 [main           ] WARN  VerifiableProperties           - Property queued.max.message.chunks is not valid
+2016-09-28 15:33:35,454 [main           ] WARN  VerifiableProperties           - Property rebalance.backoff.ms is not valid
+2016-09-28 15:33:35,455 [main           ] WARN  VerifiableProperties           - Property rebalance.max.retries is not valid
+2016-09-28 15:33:35,455 [main           ] WARN  VerifiableProperties           - Property refresh.leader.backoff.ms is not valid
+2016-09-28 15:33:35,455 [main           ] INFO  VerifiableProperties           - Property request.required.acks is overridden to 0
+2016-09-28 15:33:35,455 [main           ] INFO  VerifiableProperties           - Property request.timeout.ms is overridden to 10000
+2016-09-28 15:33:35,457 [main           ] INFO  VerifiableProperties           - Property retry.backoff.ms is overridden to 100
+2016-09-28 15:33:35,457 [main           ] INFO  VerifiableProperties           - Property send.buffer.bytes is overridden to 102400
+2016-09-28 15:33:35,458 [main           ] INFO  VerifiableProperties           - Property serializer.class is overridden to kafka.serializer.DefaultEncoder
+2016-09-28 15:33:35,458 [main           ] WARN  VerifiableProperties           - Property socket.receive.buffer.bytes is not valid
+2016-09-28 15:33:35,458 [main           ] WARN  VerifiableProperties           - Property socket.timeout.ms is not valid
+2016-09-28 15:33:35,458 [main           ] INFO  VerifiableProperties           - Property topic.metadata.refresh.interval.ms is overridden to 600000
+2016-09-28 15:33:35,458 [main           ] WARN  VerifiableProperties           - Property zookeeper.connection.timeout.ms is not valid
+2016-09-28 15:33:35,458 [main           ] WARN  VerifiableProperties           - Property zookeeper.session.timeout.ms is not valid
+2016-09-28 15:33:35,458 [main           ] WARN  VerifiableProperties           - Property zookeeper.sync.time.ms is not valid
+2016-09-28 15:34:32,307 [main           ] INFO  VerifiableProperties           - Verifying properties
+2016-09-28 15:34:32,355 [main           ] WARN  VerifiableProperties           - Property auto.commit.enable is not valid
+2016-09-28 15:34:32,355 [main           ] WARN  VerifiableProperties           - Property auto.commit.interval.ms is not valid
+2016-09-28 15:34:32,355 [main           ] WARN  VerifiableProperties           - Property auto.offset.reset is not valid
+2016-09-28 15:34:32,357 [main           ] INFO  VerifiableProperties           - Property batch.num.messages is overridden to 200
+2016-09-28 15:34:32,358 [main           ] INFO  VerifiableProperties           - Property client.id is overridden to kafka.DEFAULT_CLIENT_ID
+2016-09-28 15:34:32,358 [main           ] INFO  VerifiableProperties           - Property compression.codec is overridden to none
+2016-09-28 15:34:32,358 [main           ] WARN  VerifiableProperties           - Property consumer.timeout.ms is not valid
+2016-09-28 15:34:32,358 [main           ] WARN  VerifiableProperties           - Property fetch.message.max.bytes is not valid
+2016-09-28 15:34:32,358 [main           ] WARN  VerifiableProperties           - Property fetch.min.bytes is not valid
+2016-09-28 15:34:32,361 [main           ] WARN  VerifiableProperties           - Property fetch.wait.max.ms is not valid
+2016-09-28 15:34:32,361 [main           ] WARN  VerifiableProperties           - Property group.id is not valid
+2016-09-28 15:34:32,362 [main           ] INFO  VerifiableProperties           - Property key.serializer.class is overridden to kafka.serializer.StringEncoder
+2016-09-28 15:34:32,362 [main           ] INFO  VerifiableProperties           - Property message.send.max.retries is overridden to 3
+2016-09-28 15:34:32,362 [main           ] INFO  VerifiableProperties           - Property metadata.broker.list is overridden to sampleBroker:11
+2016-09-28 15:34:32,362 [main           ] INFO  VerifiableProperties           - Property partitioner.class is overridden to kafka.producer.DefaultPartitioner
+2016-09-28 15:34:32,362 [main           ] INFO  VerifiableProperties           - Property producer.type is overridden to sync
+2016-09-28 15:34:32,364 [main           ] INFO  VerifiableProperties           - Property queue.buffering.max.messages is overridden to 10000
+2016-09-28 15:34:32,364 [main           ] INFO  VerifiableProperties           - Property queue.buffering.max.ms is overridden to 5000
+2016-09-28 15:34:32,364 [main           ] INFO  VerifiableProperties           - Property queue.enqueue.timeout.ms is overridden to -1
+2016-09-28 15:34:32,364 [main           ] WARN  VerifiableProperties           - Property queued.max.message.chunks is not valid
+2016-09-28 15:34:32,364 [main           ] WARN  VerifiableProperties           - Property rebalance.backoff.ms is not valid
+2016-09-28 15:34:32,365 [main           ] WARN  VerifiableProperties           - Property rebalance.max.retries is not valid
+2016-09-28 15:34:32,365 [main           ] WARN  VerifiableProperties           - Property refresh.leader.backoff.ms is not valid
+2016-09-28 15:34:32,365 [main           ] INFO  VerifiableProperties           - Property request.required.acks is overridden to 0
+2016-09-28 15:34:32,365 [main           ] INFO  VerifiableProperties           - Property request.timeout.ms is overridden to 10000
+2016-09-28 15:34:32,365 [main           ] INFO  VerifiableProperties           - Property retry.backoff.ms is overridden to 100
+2016-09-28 15:34:32,365 [main           ] INFO  VerifiableProperties           - Property send.buffer.bytes is overridden to 102400
+2016-09-28 15:34:32,365 [main           ] INFO  VerifiableProperties           - Property serializer.class is overridden to kafka.serializer.DefaultEncoder
+2016-09-28 15:34:32,365 [main           ] WARN  VerifiableProperties           - Property socket.receive.buffer.bytes is not valid
+2016-09-28 15:34:32,365 [main           ] WARN  VerifiableProperties           - Property socket.timeout.ms is not valid
+2016-09-28 15:34:32,365 [main           ] INFO  VerifiableProperties           - Property topic.metadata.refresh.interval.ms is overridden to 600000
+2016-09-28 15:34:32,366 [main           ] WARN  VerifiableProperties           - Property zookeeper.connection.timeout.ms is not valid
+2016-09-28 15:34:32,366 [main           ] WARN  VerifiableProperties           - Property zookeeper.session.timeout.ms is not valid
+2016-09-28 15:34:32,366 [main           ] WARN  VerifiableProperties           - Property zookeeper.sync.time.ms is not valid

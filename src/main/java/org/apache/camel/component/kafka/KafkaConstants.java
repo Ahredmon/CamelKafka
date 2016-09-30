@@ -32,7 +32,7 @@ public enum KafkaConstants {
 
     DEFAULT_CLIENT_ID("kafka.DEFAULT_CLIENT_ID"),
     DEFAULT_GROUP("kafka.DEFAULT_GROUP"),
-    DEFAULT_TOPIC("kafka.DEFAULT_TOPIC"),
+    DEFAULT_TOPIC("test"),
     DEFAULT_SERIALIZER_CLASS("kafka.serializer.DefaultEncoder"),
     DEFAULT_PARTITIONER_CLASS("kafka.producer.DefaultPartitioner"),
     DEFAULT_PRODUCER_TYPE("sync"),

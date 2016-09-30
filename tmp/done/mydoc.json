@@ -1,0 +1,18 @@
+[{
+  "id":"1",
+  "type":"success",	
+  "message":"Process [x] has completed",
+   "props":[{"id":1},{"id":2},{"id":3}]
+},
+{
+  "id":"2",
+  "type":"failure",
+  "message":"Process [x] has failed",
+   "props":[{"id":1},{"id":2},{"id":3}]
+},
+{
+  "id":"3",
+  "type":"failure",
+  "message":"Process [x] has failed",
+   "props":[{"id":1},{"id":2},{"id":3}]
+}]

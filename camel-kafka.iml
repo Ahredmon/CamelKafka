@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="camel-kafka-2.13.1.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="org.apache.camel.camel-kafka" bundleVersion="2.13.1" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Bundle-Description" value="Kafka Component for Apache Camel." />
+          <property key="Bundle-Vendor" value="The Apache Software Foundation" />
+          <property key="Bundle-DocURL" value="http://www.apache.org/" />
+          <property key="Bundle-Name" value="camel-kafka" />
+          <property key="Export-Package" value="org.apache.camel.component.kafka.*;version=2.13.1" />
+          <property key="Import-Package" value="org.slf4j,org.apache.commons.lang,org.apache.camel*,scala,kafka.message,kafka.consumer,kafka.producer,kafka.javaapi.consumer,kafka.javaapi.producer,com.google.common.base;version=&quot;[11,14)&quot;,org.apache.hadoop.conf;version=&quot;[1,2)&quot;" />
+          <property key="Private-Package" value="!*" />
+          <property key="Import-Service" value="${camel.osgi.import.service}" />
+          <property key="Export-Service" value="org.apache.camel.spi.ComponentResolver;component=kafka" />
+          <property key="Implementation-Title" value="Apache Camel" />
+          <property key="Implementation-Version" value="2.13.1" />
+          <property key="Karaf-Info" value="Camel;camel-kafka=2.13.1" />
+          <property key="-versionpolicy" value="[$(version;==;$(@)),$(version;+;$(@)))" />
+          <property key="-failok" value="false" />
+          <property key="Include-Resource" value="META-INF/LICENSE.txt=$MODULE_DIR$/src/main/resources/META-INF/LICENSE.txt,META-INF/NOTICE.txt=$MODULE_DIR$/src/main/resources/META-INF/NOTICE.txt,META-INF/services/org/apache/camel/component/kafka=$MODULE_DIR$/src/main/resources/META-INF/services/org/apache/camel/component/kafka" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.slf4j:slf4j-simple:1.7.7" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.6.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-core:2.17.1" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-core:2.2.11" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-impl:2.1.13" level="project" />
+    <orderEntry type="library" name="Maven: javax.xml.bind:jaxb-api:2.1" level="project" />
+    <orderEntry type="library" name="Maven: javax.xml.stream:stax-api:1.0-2" level="project" />
+    <orderEntry type="library" name="Maven: javax.activation:activation:1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-all:1.9.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-core:1.5.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-reflect:1.5.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.objenesis:objenesis:1.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.javassist:javassist:3.18.0-GA" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-module-junit4:1.5.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-module-junit4-common:1.5.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-api-mockito:1.5.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-api-support:1.5.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-test:2.13.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-test-spring:2.13.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-spring:2.13.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-context:3.2.8.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-beans:3.2.8.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-expression:3.2.8.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-aop:3.2.8.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-tx:3.2.8.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:3.2.8.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-core:3.2.8.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: commons-logging:commons-logging:1.1.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.servicemix.bundles:org.apache.servicemix.bundles.kafka_2.10:0.8.1.1_1" level="project" />
+    <orderEntry type="library" name="Maven: com.101tec:zkclient:0.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.zookeeper:zookeeper:3.4.6" level="project" />
+    <orderEntry type="library" name="Maven: jline:jline:0.9.94" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty:3.7.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" name="Maven: com.yammer.metrics:metrics-core:2.0.2" level="project" />
+    <orderEntry type="library" name="Maven: com.yammer.metrics:metrics-annotation:2.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.scala-lang:scala-library:2.10.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.servicemix.bundles:org.apache.servicemix.bundles.commons-lang:2.4_6" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:16.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.5" level="project" />
+    <orderEntry type="library" name="Maven: org.json:json:20160810" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.camel:apt:2.13.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.camel:spi-annotations:2.13.1" level="project" />
+  </component>
+</module>
